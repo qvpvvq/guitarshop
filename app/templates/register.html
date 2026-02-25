@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+Регистрация
+{% endblock %}
+{% block body %}
+<div style="color: white; background: #646464; padding: 20px; border-radius: 10px; width: 300px; margin: 50px auto;">
+    <h2>Регистрация</h2>
+    <form method="POST">
+        <p><input type="text" name="username" placeholder="Логин" required style="width: 100%;"></p>
+        <p><input type="password" name="password" placeholder="Пароль" required style="width: 100%;"></p>
+        <button type="submit" style="background: rgb(255, 94, 0); color: white; border: none; padding: 10px; cursor: pointer;">Создать аккаунт</button>
+    </form>
+</div>
+{% endblock %}
